@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .arkaplanrengi{
+    background-color: rgb(240, 240, 240);
+   
+}
+header{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#vizyon .py-5 {
+  background-color: rgb(240, 240, 240);
+  transition: background-color 0.3s ease; /* Geçiş animasyonu */
+  -webkit-box-shadow: -7px 4px 23px 0px rgba(41,41,41,0.69);
+-moz-box-shadow: -7px 4px 23px 0px rgba(41,41,41,0.69);
+box-shadow: -7px 4px 23px 0px rgba(41,41,41,0.69);
+}
+
+#vizyon .py-5:hover {
+  background-color: rgb(114, 11, 11);
+ /* Fareyle üzerine gelince */
+
+}
+#vizyon .py-5:hover h1, 
+#vizyon .py-5:hover p {
+  color: white !important; 
+  transition: color 0.3s ease;
+}
+#misyon .my-5 {
+    background-color: rgb(240, 240, 240);
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    -webkit-box-shadow: -7px 4px 23px 0px rgba(41,41,41,0.69);
+-moz-box-shadow: -7px 4px 23px 0px rgba(41,41,41,0.69);
+box-shadow: -7px 4px 23px 0px rgba(41,41,41,0.69);
+  }
+
+  #misyon .my-5:hover {
+    background-color: rgb(114, 11, 11); /* Fareyle üzerine gelindiğinde arka plan */
+  }
+
+  #misyon .my-5:hover h1, 
+  #misyon .my-5:hover p {
+    color: white !important; 
+    transition: color 0.3s ease; 
+  }
+  .carousel-item img {
+    border: 3px solid rgb(114, 11, 11); /* Kenarlık rengi ve kalınlığı */
+    transition: transform 0.3s ease; /* Kenarlıkla birlikte efekt eklemek */
+  }
+.nav-link{
+  color: rgb(114, 11, 11); /* Varsayılan renk */
+  transition: color 0.3s ease;
+
+}
+.nav-link:hover{
+  color: rgb(0, 0, 0) !important;
+}
+
+    </style>
+</head>
+<body>
+  <div id="anasayfa">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom arkaplanrengi">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="https://api.emmtomu.com/api/uploads//1696280345209.png" width="80" height="80" style="margin-right: 10px; margin-left: 10px;" alt="logo" >
+            <span style="font-family:'Times New Roman', Times, serif; color:rgb(114, 11, 11); font-weight: bold;" class="fs-4">MÜKEMMEL KADINLAR MÜKEMMEL İŞLER</span>
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#anasayfa" style="font-family: 'Times New Roman', Times, serif; color:rgb(114, 11, 11) ; font-size: large;" class="nav-link">Anasayfa</a></li>
+            <li class="nav-item"><a href="ilhamvk.html" style="font-family: 'Times New Roman', Times, serif; color:rgb(114, 11, 11) ; font-size: large;" class="nav-link">İlham Veren Kadınlar</a></li>
+            <li class="nav-item"><a href="icerikvbasv.html" style="font-family: 'Times New Roman', Times, serif; color:rgb(114, 11, 11) ; font-size: large;" class="nav-link">İçerik ve Başvuru</a></li>
+            <li class="nav-item"><a  href="iletisim.html" style="font-family: 'Times New Roman', Times, serif; color:rgb(114, 11, 11) ; font-size: large;" class="nav-link">İletişim</a></li>
+          
+          </ul>
+        </header>
+      </div>
+    
+<!--Orta Kısım-->
+
+      <div class="container px-4 py-5 arkaplanresmi" id="custom-cards">
+        <h2 style="margin-top: 100px; font-family: 'Times New Roman', Times, serif; font-weight: lighter; font-style: italic; color:rgb(114, 11, 11) ;" class="pb-2 border-bottom">İlham Veren Kadınlar'</h2>    
+          </div>
+          <div id="vizyon" class="box">
+         
+          <div class="p-5 text-center ">
+            <div class="container py-5">
+              <h1 class="text-body-emphasis">Vizyonumuz</h1>
+              <p class="col-lg-8 mx-auto lead">
+                İlham veren kadınlar temasıyla kurduğumuz websitemizde alanında başarılı birbirinden yetenekli kadınlarımıza ve yaptıkları mükemmel işlere yer veriyor; yeni mükemmel işler yaratacak mükemmel kadınlara eğitim fırsatları sağlıyoruz..
+              </p>
+            </div>
+      
+        </div>
+      </div>
+
+<div id="misyon" class="box">
+        <div class="container my-5">
+          <div class="p-5 text-center rounded-3">
+            <h1 class="text-body-emphasis">Misyonumuz</h1>
+            <p class="lead">
+              Toplumsal cinsiyet eşitliğine dikkat çekmek ve kadınların yaptıkları işlerde yükselmesini sağlamak..
+            </p>
+          </div>
+        </div>
+  
+
+</div>
+      <!--Son-->
+      <main>
+<div class="container">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+             <img src="https://cdn.pixabay.com/photo/2018/09/18/19/55/woman-3687084_1280.jpg" width="100%" height="600px" alt="">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Mükemmel İşler Sizin Elinizde..</h1>
+                  <p class="opacity-75">Amaçlarınıza ulaşmanız için her türlü desteği vermeye hazırız.</p>
+               
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.istockphoto.com/id/1783744418/tr/foto%C4%9Fraf/businesswoman-speaking-to-group-of-entrepreneurs-during-an-education-event-at-convention.jpg?s=612x612&w=0&k=20&c=Bs0ARYql1_mlruBK_nTmxGM4i2MGbSqCgNdlS99FxfQ=" width="100%" height="600px" alt="">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Birlikte başarıyoruz..</h1>
+                  <p>Kadınların da her alanda var olduğunu göstererek birlikte daha iyisini hedefliyoruz.</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+             <img src="https://cdn.pixabay.com/photo/2019/12/17/17/09/woman-4702060_1280.jpg" width="100%" height="600px" alt="">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>Her sene büyüyerek..</h1>
+                  <p>1200'den fazla kadına eğitim vererek mükemmel işler başarmalarına olanak sağladık.</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+      </main>
+    
+
+
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="add.js"></script>
+</body>
+</html>
